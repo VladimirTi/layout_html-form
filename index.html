@@ -13,13 +13,13 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <form action="script.js" method="post" name="mainForm" autocomplete="off">
+  <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post" name="mainForm" autocomplete="off">
     <fieldset>
       <legend>Personal information</legend>
 
       <div class="indent">
         <label>Surname:
-          <input type="text" name = "surname" autocomplete="false" required>
+          <input type="text" name = "surname" autocomplete="off" required>
         </label>
       </div>
 
@@ -122,7 +122,7 @@
         </label>
       </div>
     </fieldset>
-    <input type="submit" value="Submit" name="submit" onclick="someFunc(this.form)">
+    <input type="submit" value="Submit" name="submit">
   </form>
 
 <script type="text/javascript" src="./main.js"></script>
